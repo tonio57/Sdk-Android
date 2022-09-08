@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@android:drawable/ic_menu_gallery"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_produits"
+        android:title="Produits"
+        android:icon="@android:drawable/stat_sys_phone_call"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_département"
+        android:title="Département"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        app:showAsAction="always"/>
+</menu>
